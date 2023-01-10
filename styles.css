@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Digital';
+    src: url(font/digital-7.ttf);
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    background-image: url(image/desk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calculator {
+    width : 500px;
+    padding: 50px;
+    height: auto;
+    margin-top: 450px;
+    margin-left: 100px ;
+}
+
+.container {
+    background: #8B939A;
+    border: 1px solid black;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+.screen {
+    background: whitesmoke;
+    margin: 30px 20px;
+    width: 310px;
+    text-align: end;
+    padding: 12px 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.screen-current {
+    min-height: 64px;
+    font-size: 60px;
+    font-family: Digital;
+  }
+
+.button-grid {
+    height: 400px;
+    width: 350px;
+    margin: 20px 20px;
+    display: grid;
+    grid-gap: 10px 15px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+    padding: 20px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+
+
